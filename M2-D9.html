@@ -22,6 +22,16 @@ Make sure you check the documentation before creting anything custom.
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"crossorigin="anonymous"/>
     <style>
         /* PREVIOUS CODE */  
+        body{
+             background: rgb(87, 71, 71);
+             background-image: url("https://cdn.hovia.com/app/uploads/Green-Tropical-Plant-Wallpaper-Mural-Plain.jpg");
+         }
+
+         h2{
+           color: antiquewhite;
+           font-size: xxx-large;
+           font-weight: bolder;
+         }
 
 
     .fade-in {
@@ -52,6 +62,166 @@ Make sure you check the documentation before creting anything custom.
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </div>
+
+
+      <header>
+        
+        <nav class="navbar navbar-expand-lg navbar-toggler navbar-light bg-light fixed-top ">
+            <a class="navbar-brand" href="https://open.spotify.com/user/6f7icrpqh1urwgo1cohgry3wn?si=0c24cd86b03b449c" target="_blank">Spotify</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Main Disks</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#review">Album Review</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#shit">Shitty Album</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#legend">Legend Of Legends</a>
+                </li>
+               
+              </ul>
+            </div>
+          </nav>
+
+    </header> 
+        
+        <section class="mt-5 container" id="home">
+          
+          <h2 class=" d-flex justify-content-center my-5">Main Disks</h2>
+          <div class=" d-flex justify-content-between">
+            <div class="row">
+    
+                <div class="card col-6 col-4-md col-3-xl" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top m- h-50" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Seasons In The Abyss</h5>
+                      <h6>Slayer</h6>
+                      <p class="card-text">Rock N Roll · 55min</p>
+                      <a href="https://open.spotify.com/playlist/5dKBMMNkM0nxhZGAob8YFg?si=233938fbd9574d9e" class="btn btn-primary ">Go to the CD</a>
+                    </div>
+                    </div>
+                  </div>
+    
+    
+                <div class="card col-6 col-4-md col-3-xl" style="width: 18rem;">
+                    <img src="https://cdn.smehost.net/sonymusices-45pressprod/wp-content/uploads/2018/08/foto_de_jimi-hendrix-3.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Electric Ladyland</h5>
+                      <h6>Jimmi Hendrix</h6>
+                      <p class="card-text">Rock N Roll · 55min</p>
+                      <a href="https://open.spotify.com/album/5z090LQztiqh13wYspQvKQ?si=ef3ipdZ3SvCH5MDcY6y8Hw" class="btn btn-primary ">Go to the CD</a>
+                    </div>
+                  </div>
+    
+    
+                <div class="card col-6 col-4-md col-3-xl" style="width: 18rem;">
+                    <img src="https://estaticos-cdn.prensaiberica.es/clip/da867d66-e8c3-496b-99b1-a1de9baa91a3_16-9-aspect-ratio_default_0.jpg" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Peace Love Death Metal</h5>
+                      <h6>Eagles Of Death Metal</h6>
+                      <p class="card-text">Rock N Roll · 55min</p>
+                      <a href="https://open.spotify.com/album/5GclxkE6zvtpg6yKiZfnG7?si=-klz3IgrSXCDMmNAWZ0OaA" class="btn btn-primary">Go to the CD</a>
+                    </div>
+                  </div>
+    
+    
+                <div class="card col-6 col-4-md col-3-xl" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbb4dzeHxEzw1VFjPaVxAvQ0DgWDZXOz6Rmw&usqp=CAU" class="card-img-top h-50" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">L.A. Woman</h5>
+                      <h6>The Doors</h6>
+                      <p class="card-text">Rock N Roll · 55min</p>
+                      <a href="https://open.spotify.com/album/7IKUTIc9UWuVngyGPtqNHS?si=rGybEycVTgCTFnxfW2tP8A" class="btn btn-primary">Go to the CD</a>
+                    </div>
+                  </div>    
+                  
+            </div>
+        </div>  
+    </section>
+
+
+   
+    
+    <article class="container" id="review">
+          <h2 class=" d-flex justify-content-center my-5">Album Review</h2>
+          <div class="d-flex justify-content-center">
+  
+            <div class="card" style="width: 18rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-WotNEN6H76z0F4mrKQ3rhThfmuc2mfbNlg&usqp=CAU" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ellos Dicen Mierda</h5>
+                <p class="card-text">La Polla Records</p>
+              </div>
+              <ul class="list-group list-group-flush">
+
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                <li class="list-group-item">  Mis Cojones Y Yo · 2.33min</li>
+                             
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Artist link</a>
+                <a href="#" class="card-link">CD link</a>
+              </div>
+            </div>
+
+          </div>
+    </article>
+ 
+  
+    <article class="container" id="shit">
+      <h2 class=" d-flex justify-content-center my-5"> Hall Of Shame</h2>
+
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrJXU8NU3Qzoiuffah9lz7qC6nkuoMN-v0Lg&usqp=CAU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div>
+
+    </article>
+    
+    <article class="container" id="legend">
+
+      <h2 class=" d-flex justify-content-center my-5">One Legend Band</h2>
+      <div class="card text-center">
+        <div class="card-header">
+          Motörhead
+        </div>
+        <div class="card-body">
+          <img src="https://img.discogs.com/5ufKyuMBaY8TSN7xIs_sjpL2o_E=/fit-in/600x601/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-8420359-1612838685-6977.jpeg.jpg" alt="">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-muted">
+          1975 - 2015
+        </div>
+      </div>
+
+    </article>
 
     <!-- EXERCISE 2
         Use a Bootstrap Card to contain every album in the favorite list you previously created.
