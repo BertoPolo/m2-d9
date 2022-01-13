@@ -19,9 +19,22 @@ Make sure you check the documentation before creting anything custom.
 
 <head>
     <!-- IMPORT ALL THE BOOSTRAP RELATED CSS & SCRIPTS-->
-
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"crossorigin="anonymous"/>
     <style>
-        /* PREVIOUS CODE */
+        /* PREVIOUS CODE */  
+
+
+    .fade-in {
+  animation: fadeIn 1s 2s both;
+}
+    @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
     </style>
 </head>
 
@@ -32,10 +45,20 @@ Make sure you check the documentation before creting anything custom.
         Make it appear with a fade-in animation effect when the page loads.
     -->
 
+    <div class="jumbotron fade-in">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+
     <!-- EXERCISE 2
         Use a Bootstrap Card to contain every album in the favorite list you previously created.
         Use the elements of a card bootstrap provides you with to display nicely the album informations such as: album title, artist, year, etc..
     -->
+
+    
 
     <!-- EXERCISE 3
         Foreach album in the favorite list, place a badge on the top-left corner of the album with the genre of the music
